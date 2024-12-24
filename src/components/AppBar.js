@@ -35,7 +35,9 @@ function ResponsiveAppBar() {
     <AppBar 
       position="fixed" 
       sx={{
-        background: "linear-gradient(135deg, #1f4068 0%, #1b1b2f 100%)",
+        background: "transparent",
+        backdropFilter: 'blur(10px)',
+        /*background: "linear-gradient(135deg, #1f4068 0%, #1b1b2f 100%)",*/
       }}
     >
       <Container maxWidth="xl">
@@ -59,8 +61,8 @@ function ResponsiveAppBar() {
             🌌 Welcome to My Land!
           </Typography>
 
-          {/* Menú Hamburguesa para pantallas pequeñas */}
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          {/* Menú Hamburguesa para pantallas chicas */}
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' },   background: "transparent", backdropFilter: 'blur(10px)', }}>
             <IconButton
               size="large"
               aria-label="account of current user"

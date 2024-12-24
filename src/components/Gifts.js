@@ -66,13 +66,13 @@ const Gifts = () => {
   return (
     <Box sx={{ textAlign: 'center', paddingX: 2 }}>
       <Typography variant="h6" color="primary" sx={{ mb: 3 }}>Before you go, pick a gift</Typography>
-      <Grid container spacing={2} justifyContent="center" wrap="nowrap" sx={{ overflowX: 'auto', marginTop: 2 }}>
+      <Grid container spacing={2} justifyContent="center" wrap="nowrap" sx={{ overflow: 'hide', marginTop: 2 }}>
         {gifts.map((gift, index) => (
           <Grid  
             key={index} 
             sx={{
-              width: { xs: '50px', sm: '60px', md: '70px', lg: '100px' }, // Ajusta el ancho en base a la pantalla
-              flexShrink: 0, // Evita que los elementos se reduzcan
+              width: { xs: '50px', sm: '60px', md: '70px', lg: '100px' }, 
+              flexShrink: 0, 
               display: 'flex', 
               justifyContent: 'center',
               backgroundColor: '#0d1b2a',

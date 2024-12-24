@@ -62,7 +62,7 @@ const Skills = () => {
           marginTop: 2,
         }}
       >
-        These are all the pokemons I have collected over this years
+        These are all the pokemons I have collected over these years
       </Typography>
       <Grid container spacing={2} justifyContent="center" marginTop={3}>
         {skills.map((skill, index) => (

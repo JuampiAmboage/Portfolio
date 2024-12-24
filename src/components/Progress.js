@@ -8,8 +8,8 @@ import HourglassTopIcon from '@mui/icons-material/HourglassTop';
 import HourglassBottomIcon from '@mui/icons-material/HourglassBottom';
 
 const subjects = {
-  approved: ['Common basic cycle/CBC (6 subjects)', 'Algorithms and Data Structures', 'Computer Organization', 'Databases', 'Data Science', 'Introduction to Software Development', 'Linear Algebra', 'Mathematical Analysis II', 'Operating Systems', 'Physics I', 'Programming Fundamentals', 'Programming Paradigms', 'Programming Workshop I', 'Software Engineering I'],
-  inProgress: ['Algorithm Theory', 'Concurrent Programming Techniques', 'Networks', 'Technology-based Companies I'],
+  approved: ['Common basic cycle/CBC (6 subjects)', 'Algorithms and Data Structures', 'Computer Organization', 'Concurrent Programming Techniques', 'Databases', 'Data Science', 'Introduction to Software Development', 'Linear Algebra', 'Mathematical Analysis II', 'Operating Systems', 'Physics I', 'Programming Fundamentals', 'Programming Paradigms', 'Programming Workshop I', 'Software Engineering I', 'Technology-based Companies I'],
+  inProgress: ['Algorithm Theory', 'Networks'],
   pending: ['Cybersecurity Workshop', 'Distributed Systems', 'Management of Computer Systems Development', 'Numerical Modeling', 'Physics for Computer Scientists', 'Probability and Statistics', 'Technology-based Companies II', '3 Electives', 'Thesis'],
 };
 
@@ -21,7 +21,7 @@ const Progress = () => {
   const startAnimation = () => {
     if (hasAnimated) return; 
 
-    const targetProgress = 56;
+    const targetProgress = 61;
     const duration = 1500; 
     const steps = 56; 
     const intervalTime = duration / steps;
