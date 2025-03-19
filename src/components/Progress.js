@@ -8,9 +8,9 @@ import HourglassTopIcon from '@mui/icons-material/HourglassTop';
 import HourglassBottomIcon from '@mui/icons-material/HourglassBottom';
 
 const subjects = {
-  approved: ['Common basic cycle/CBC (6 subjects)', 'Algorithms and Data Structures', 'Algorithm Theory', 'Computer Organization', 'Concurrent Programming Techniques', 'Databases', 'Data Science', 'Introduction to Software Development', 'Linear Algebra', 'Mathematical Analysis II', 'Networks', 'Operating Systems', 'Physics I', 'Programming Fundamentals', 'Programming Paradigms', 'Programming Workshop I', 'Software Engineering I', 'Technology-based Companies I'],
-  inProgress: [],
-  pending: ['Cybersecurity Workshop', 'Distributed Systems', 'Management of Computer Systems Development', 'Numerical Modeling', 'Physics for Computer Scientists', 'Probability and Statistics', 'Technology-based Companies II', '3 Electives', 'Thesis'],
+  approved: ['Algorithms and Data Structures', 'Algorithm Theory', 'Common basic cycle (CBC)', 'Computer Organization', 'Concurrent Programming Techniques', 'Databases', 'Data Science', 'Introduction to Software', 'Linear Algebra', 'Mathematical Analysis II', 'Networks', 'Operating Systems', 'Physics I', 'Programming Fundamentals', 'Programming Paradigms', 'Programming Workshop I', 'Software Engineering I', 'Technology-based Companies I'],
+  inProgress: ['Automated Machine Learning','Numerical Modeling','Probability and Statistics','Software Engineering II','Technology-based Companies II'],
+  pending: ['Cybersecurity Workshop', 'Distributed Systems', 'Computer Systems Development', 'Physics for Computer Scientists', '2 Electives', 'Thesis'],
 };
 
 const Progress = () => {
